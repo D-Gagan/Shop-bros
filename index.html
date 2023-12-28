@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop-bros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="project-name">Shop-bros</h1>
+            <nav>
+                <a href="#" onclick="showAbout()">About</a>
+                <a href="#" onclick="showBilling()">Billing</a>
+            </nav>
+        </header>
+
+        <div id="item-list">
+            <!-- Display items here -->
+        </div>
+
+        <div id="about" style="display: none;">
+            <h2>About Shop-bros</h2>
+            <p>This is a web application that allows you to list and purchase items. Enjoy your shopping experience!</p>
+        </div>
+
+        <div id="billing" style="display: none;">
+            <!-- Billing content will be loaded here -->
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

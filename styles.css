@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2ecc71;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    background-color: #3498db;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#item-list {
+    border: 1px solid #3498db;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+button {
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.item-image {
+    max-width: 80px;
+    max-height: 80px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+#about, #billing {
+    border: 1px solid #3498db;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    display: none;
+}
+
+#about h2, #billing h2 {
+    color: #3498db;
+    text-align: center;
+}
+
+.purchased-item-image {
+    max-width: 80px;
+    max-height: 80px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.total-cost {
+    margin-top: 10px;
+    text-align: right;
+    font-size: 1.2em;
+    color: #e74c3c;
+}
